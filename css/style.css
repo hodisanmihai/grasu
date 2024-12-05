@@ -493,7 +493,8 @@ header .right-section img {
     width: 100vw;
   }
   header {
-    width: 100%;
+    width: -moz-fit-content;
+    width: fit-content;
     flex-direction: column;
     height: auto; /* Allow content to determine height */
   }
@@ -535,7 +536,8 @@ header .right-section img {
     height: auto;
   }
   #about {
-    width: 100%;
+    width: -moz-fit-content;
+    width: fit-content;
     flex-direction: column; /* Stack left and right content */
     height: auto; /* Let content determine height */
     gap: 1.5rem;
@@ -588,7 +590,8 @@ header .right-section img {
     padding: 0.5rem 0; /* Reduced padding */
   }
   #services {
-    width: 100%;
+    width: -moz-fit-content;
+    width: fit-content;
     height: auto; /* Let height adjust based on content */
     padding-bottom: 1.5rem;
   }
@@ -679,6 +682,10 @@ header .right-section img {
   #contact .right img {
     width: 90%; /* Slightly smaller image */
     height: auto;
+  }
+  .footer {
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .footer .footer-content {
     flex-direction: column; /* Stack the elements vertically */

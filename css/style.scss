@@ -576,7 +576,8 @@ body {
     }
 
     header {
-      width: 100%;
+      
+width: fit-content;
   flex-direction: column;
   height: auto; /* Allow content to determine height */
 
@@ -627,7 +628,8 @@ body {
 }
 
 #about {
-  width: 100%;
+  
+width: fit-content;
   flex-direction: column; /* Stack left and right content */
   height: auto; /* Let content determine height */
   gap: 1.5rem;
@@ -696,7 +698,8 @@ body {
 
 #services {
 
-  width: 100%;
+  
+width: fit-content;
   height: auto; /* Let height adjust based on content */
   padding-bottom: 1.5rem;
 
@@ -818,6 +821,7 @@ width: fit-content;
 
 .footer {
 
+  width: fit-content;
 
   .footer-content {
     flex-direction: column; /* Stack the elements vertically */
