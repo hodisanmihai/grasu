@@ -755,7 +755,7 @@ body {
 }
 
 #contact {
-width: 100%;
+width: fit-content;
   flex-direction: column; /* Stack sections vertically */
   height: auto; /* Adjust height to fit content */
   background: linear-gradient(

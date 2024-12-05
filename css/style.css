@@ -635,7 +635,8 @@ header .right-section img {
     font-size: 16px; /* Smaller font for description */
   }
   #contact {
-    width: 100%;
+    width: -moz-fit-content;
+    width: fit-content;
     flex-direction: column; /* Stack sections vertically */
     height: auto; /* Adjust height to fit content */
     background: linear-gradient(to bottom, #3572EF 55%, #fff 45%);
