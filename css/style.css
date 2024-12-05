@@ -677,7 +677,6 @@ header .right-section img {
   }
   .footer {
     width: 100%;
-    padding: 30px 20px; /* Reduced padding for smaller screens */
   }
   .footer .footer-content {
     flex-direction: column; /* Stack the elements vertically */
