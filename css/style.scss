@@ -568,10 +568,15 @@ body {
   
 
   @media (max-width:480px) {
+
+    body{
+      margin:0;
+      top:0;
+    }
+
     header {
   flex-direction: column;
   height: auto; /* Allow content to determine height */
-  padding: 1rem;
 
   .left-section {
     width: 100%;
@@ -598,9 +603,11 @@ body {
       .buttons {
         flex-direction: column; /* Stack buttons vertically */
         gap: 1rem;
+        padding:2rem 0;
 
         button {
-          width: 100%; /* Full width buttons */
+          
+          width: 80%; /* Full width buttons */
           font-size: 16px; /* Adjust font size */
           padding: 0.5rem;
         }
@@ -621,7 +628,6 @@ body {
 #about {
   flex-direction: column; /* Stack left and right content */
   height: auto; /* Let content determine height */
-  padding: 1rem;
   gap: 1.5rem;
 
   .left-content,
@@ -688,7 +694,7 @@ body {
 
 #services {
   height: auto; /* Let height adjust based on content */
-  padding: 1rem;
+  padding-bottom: 1.5rem;
 
   .content {
     width: 90%; /* Increase content width for better utilization */
@@ -801,7 +807,7 @@ body {
 }
 
 .footer {
-  padding: 10px 20px; /* Reduced padding for smaller screens */
+  padding: 30px 20px; /* Reduced padding for smaller screens */
 
   .footer-content {
     flex-direction: column; /* Stack the elements vertically */
