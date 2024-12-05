@@ -582,7 +582,6 @@ body {
     width: 100%;
     height: auto;
     margin: 0;
-    padding: 1rem;
     border-radius: 0;
 
     .content {
@@ -716,7 +715,8 @@ body {
     .cards {
       flex-direction: column; /* Stack cards vertically */
       align-items: center; /* Center-align cards */
-      gap: 2rem; /* Add spacing between cards */
+      gap: 5rem; /* Add spacing between cards */
+      padding-top: 2rem;
 
       .card {
         width: 90%; /* Full-width cards for smaller screens */
