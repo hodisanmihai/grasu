@@ -575,6 +575,7 @@ body {
     }
 
     header {
+      width: 100%;
   flex-direction: column;
   height: auto; /* Allow content to determine height */
 
@@ -692,6 +693,8 @@ body {
 }
 
 #services {
+
+  width: 100%;
   height: auto; /* Let height adjust based on content */
   padding-bottom: 1.5rem;
 
@@ -750,6 +753,8 @@ body {
 }
 
 #contact {
+
+  width: 100%;
   flex-direction: column; /* Stack sections vertically */
   height: auto; /* Adjust height to fit content */
   padding: 1rem;
@@ -807,6 +812,8 @@ body {
 }
 
 .footer {
+
+  width: 100%;
   padding: 30px 20px; /* Reduced padding for smaller screens */
 
   .footer-content {
