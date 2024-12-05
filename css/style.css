@@ -486,7 +486,7 @@ header .right-section img {
   display: inline-block;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   body {
     margin: 0;
     top: 0;
