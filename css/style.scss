@@ -572,6 +572,7 @@ body {
     body{
       margin:0;
       top:0;
+      width: 100vw;
     }
 
     header {
@@ -626,6 +627,7 @@ body {
 }
 
 #about {
+  width: 100%;
   flex-direction: column; /* Stack left and right content */
   height: auto; /* Let content determine height */
   gap: 1.5rem;
@@ -814,7 +816,7 @@ body {
 .footer {
 
   width: 100%;
-  
+
   .footer-content {
     flex-direction: column; /* Stack the elements vertically */
     align-items: center; /* Center-align everything */

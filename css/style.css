@@ -490,6 +490,7 @@ header .right-section img {
   body {
     margin: 0;
     top: 0;
+    width: 100vw;
   }
   header {
     width: 100%;
@@ -533,6 +534,7 @@ header .right-section img {
     height: auto;
   }
   #about {
+    width: 100%;
     flex-direction: column; /* Stack left and right content */
     height: auto; /* Let content determine height */
     gap: 1.5rem;
