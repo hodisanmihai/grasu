@@ -498,7 +498,8 @@ header .right-section img {
     height: auto; /* Allow content to determine height */
   }
   header .left-section {
-    width: 100%;
+    width: -moz-fit-content;
+    width: fit-content;
     height: auto;
     margin: 0;
     border-radius: 0;
@@ -637,14 +638,15 @@ header .right-section img {
     width: 100%;
     flex-direction: column; /* Stack sections vertically */
     height: auto; /* Adjust height to fit content */
-    padding: 1rem;
   }
   #contact .left, #contact .right {
-    width: 100%; /* Full width for each section */
+    width: -moz-fit-content;
+    width: fit-content; /* Full width for each section */
     height: auto; /* Adjust height to content */
     padding: 2rem; /* Add spacing for smaller screens */
   }
   #contact .left {
+    width: 100%;
     background-color: #3572EF;
     align-items: flex-start; /* Align content to the top */
     padding: 2rem 1rem;
@@ -676,9 +678,6 @@ header .right-section img {
   #contact .right img {
     width: 90%; /* Slightly smaller image */
     height: auto;
-  }
-  .footer {
-    width: 100%;
   }
   .footer .footer-content {
     flex-direction: column; /* Stack the elements vertically */
