@@ -758,6 +758,11 @@ body {
 width: 100%;
   flex-direction: column; /* Stack sections vertically */
   height: auto; /* Adjust height to fit content */
+  background: linear-gradient(
+    to bottom , /* Diagonal direction */
+    #3572EF 55%, /* First color for 50% of the space */
+    #fff 45% /* Second color starts at 50% */
+  );
 
   .left, .right {
     width: fit-content; /* Full width for each section */
@@ -766,7 +771,6 @@ width: 100%;
   }
 
   .left {
-    width: 100%;
     background-color: #3572EF;
     align-items: flex-start; /* Align content to the top */
     padding: 2rem 1rem;

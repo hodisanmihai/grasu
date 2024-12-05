@@ -638,6 +638,7 @@ header .right-section img {
     width: 100%;
     flex-direction: column; /* Stack sections vertically */
     height: auto; /* Adjust height to fit content */
+    background: linear-gradient(to bottom, #3572EF 55%, #fff 45%);
   }
   #contact .left, #contact .right {
     width: -moz-fit-content;
@@ -646,7 +647,6 @@ header .right-section img {
     padding: 2rem; /* Add spacing for smaller screens */
   }
   #contact .left {
-    width: 100%;
     background-color: #3572EF;
     align-items: flex-start; /* Align content to the top */
     padding: 2rem 1rem;
